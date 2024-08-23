@@ -16,14 +16,17 @@ export default function Tools() {
     <div>
       <h2>Tool</h2>
       <Separator />
-      <div className="flex gap-1 items-center mt-2 mb-4">
+      <div className="mb-4 mt-2 flex items-center gap-1">
         <ToolIcon fill="#37352f" width={20} />
         <span>Tool</span>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         {TOOLS_LIST.map(({ name, src }) => (
-          <div className="border-[#37352f29] border-solid border-[1px] px-2 py-3 flex gap-2 items-center">
-            <img src={src} className="w-5 h-5" />
+          <div
+            key={name}
+            className="flex items-center gap-2 border border-solid border-[#37352f29] px-2 py-3 hover:bg-[#37352f0a]"
+          >
+            <img src={src} className="size-5" />
             {name}
           </div>
         ))}

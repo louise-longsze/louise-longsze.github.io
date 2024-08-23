@@ -1,5 +1,5 @@
-import LuggageIcon from "@/assets/images/lugguage.svg?react";
-import Separator from "./Separator";
+import LuggageIcon from '@/assets/images/lugguage.svg?react'
+import Separator from './Separator'
 export default function Header() {
   return (
     <header className="p-4">
@@ -7,5 +7,5 @@ export default function Header() {
       <h1>Louise Longsze</h1>
       <Separator />
     </header>
-  );
+  )
 }

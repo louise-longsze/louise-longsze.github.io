@@ -1,10 +1,10 @@
-import profileIconSrc from "@/assets/images/profileIcon.png";
+import profileIconSrc from '@/assets/images/profileIcon.png'
 
 export default function ProfileIcon() {
   return (
-    <div className="rounded-full flex flex-col items-center gap-3">
+    <div className="flex flex-col items-center gap-3 rounded-full">
       <img src={profileIconSrc} width={200} />
-      <div>Hi there! I'm Long</div>
+      <div>Hi there! I&apos;m Long</div>
     </div>
-  );
+  )
 }
