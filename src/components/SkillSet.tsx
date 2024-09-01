@@ -11,6 +11,7 @@ const SKILLS_LIST = [
   'HTML',
   'CSS',
   'Postgres',
+  'Prisma',
   'Wordpress'
 ]
 export default function SkillSet() {
