@@ -1,10 +1,12 @@
 import Separator from './Separator'
 import onlineEnrollmentSrc from '@/assets/images/workExamples/onlineEnrollment.png'
 import ERPSrc from '@/assets/images/workExamples/ERP.png'
+import CuhkmsSrc from '@/assets/images/workExamples/cuhk-ms.png'
 
 const WORK_EXAMPLES_LIST = [
   { name: 'Online Enrolment System', src: onlineEnrollmentSrc },
-  { name: 'ERP System', src: ERPSrc }
+  { name: 'ERP System', src: ERPSrc },
+  { name: 'NextJs Project', src: CuhkmsSrc }
 ]
 export default function WorkExamples() {
   return (
